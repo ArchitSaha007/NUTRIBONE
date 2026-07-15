@@ -139,7 +139,7 @@ The dataset contains labeled knee radiographs suitable for supervised deep learn
 
 # 🛠 Technology Stack
 ### Frontend
--html
+- html
 
 ### Backend
 
