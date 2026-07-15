@@ -143,7 +143,7 @@ The dataset contains labeled knee radiographs suitable for supervised deep learn
 
 ### Backend
 
-- Python
+- Python/JupyterNotebook
 
 ### Deep Learning
 
