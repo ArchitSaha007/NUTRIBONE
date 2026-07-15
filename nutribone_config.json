@@ -1,0 +1,51 @@
+{
+    "img_size": [
+        384,
+        384
+    ],
+    "categories": [
+        "Normal",
+        "Osteopenia",
+        "Osteoporosis"
+    ],
+    "temperatures": {
+        "EfficientNetV2B2": 0.33327941894530977,
+        "DenseNet201": 0.5406555175781227,
+        "ConvNeXtTiny": 0.4689971923828101
+    },
+    "ensemble_weights": {
+        "EfficientNetV2B2": 0.27592877858206405,
+        "DenseNet201": 0.3653027666995839,
+        "ConvNeXtTiny": 0.358768454718352
+    },
+    "oof_auc": {
+        "EfficientNetV2B2": 0.6875020193309873,
+        "DenseNet201": 0.9101855597076366,
+        "ConvNeXtTiny": 0.8939047183067477
+    },
+    "macro_auc": 0.9218,
+    "fold_models": {
+        "EfficientNetV2B2": [
+            "EfficientNetV2B2_fold1_best.keras",
+            "EfficientNetV2B2_fold2_best.keras",
+            "EfficientNetV2B2_fold3_best.keras",
+            "EfficientNetV2B2_fold4_best.keras",
+            "EfficientNetV2B2_fold5_best.keras"
+        ],
+        "DenseNet201": [
+            "DenseNet201_fold1_best.keras",
+            "DenseNet201_fold2_best.keras",
+            "DenseNet201_fold3_best.keras",
+            "DenseNet201_fold4_best.keras",
+            "DenseNet201_fold5_best.keras"
+        ],
+        "ConvNeXtTiny": [
+            "ConvNeXtTiny_fold1_best.keras",
+            "ConvNeXtTiny_fold2_best.keras",
+            "ConvNeXtTiny_fold3_best.keras",
+            "ConvNeXtTiny_fold4_best.keras",
+            "ConvNeXtTiny_fold5_best.keras"
+        ]
+    },
+    "xgb_model": "nutribone_xgb.json"
+}
